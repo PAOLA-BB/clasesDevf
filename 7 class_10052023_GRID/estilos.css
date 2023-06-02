@@ -1,0 +1,36 @@
+.contenedor-grid{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: auto;
+    gap: 20px;
+    grid-template-areas:
+        "header header header header"
+        "main main main aside" 
+        "footer footer footer footer"
+}
+
+header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+footer{
+    grid-area: footer;
+    background-color: blue;
+}
+
+aside{
+    grid-area: aside;
+    background-color: blueviolet;
+}
+
+main{
+    grid-area: main;
+    background-color: pink;
+}
+
+.nada{
+    grid-column-start: 2;
+    grid-row-end: 2;
+    
+}

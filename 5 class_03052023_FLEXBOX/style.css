@@ -1,0 +1,16 @@
+.contenedor-flexible{
+    display: flex;
+    background-color: blue;
+    border: 5px solid coral;
+    padding: 10px;
+    margin: 5px;
+}
+.contenedor-hijo{
+    background-color: blueviolet;
+     border: 5px solid coral;
+    padding: 10px;
+    margin: 5px;
+}
+.conteiner-wrap{
+    flex-wrap: wrap;
+}
