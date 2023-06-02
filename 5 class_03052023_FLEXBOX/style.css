@@ -1,16 +1,49 @@
-.contenedor-flexible{
+.chicoAzul {
     display: flex;
-    background-color: blue;
-    border: 5px solid coral;
-    padding: 10px;
-    margin: 5px;
+    background-color: rgb(76, 156, 180);
+    height: 150px;   
+    margin: 0px 15px 30px 15px;
 }
-.contenedor-hijo{
-    background-color: blueviolet;
-     border: 5px solid coral;
-    padding: 10px;
-    margin: 5px;
+
+.grandeAzul {
+    display: flex;
+    background-color: rgb(76, 156, 180);
+    height: 200px;
+    margin: 15px;
 }
-.conteiner-wrap{
-    flex-wrap: wrap;
+
+.container {
+    display: flex;
+    background-color: rgb(76, 156, 180);
+    height: 200px;
 }
+
+.medianoAzul_md {
+    display: flex;
+    border: 15px solid rgb(247, 251, 252);
+    flex: 1;
+    background-color: rgb(76, 156, 180)
+    
+}
+
+.medianoAzul {
+    display: flex;
+    border: 15px solid rgb(247, 247, 247);
+    flex: 1;
+    background-color: rgb(76, 156, 180)
+}
+
+.medianoAzul_mdma {
+    display: flex;
+    border: 15px solid wheat;
+    flex: 1;
+    background-color: rgb(76, 156, 180)
+}
+
+.medianoAzul_ma {
+    display: flex;
+    border: 15px solid wheat;
+    flex: 1;
+    background-color: rgb(76, 156, 180)9)
+}
+
