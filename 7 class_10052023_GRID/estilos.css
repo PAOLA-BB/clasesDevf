@@ -1,4 +1,4 @@
-.contenedor-grid{
+/*.contenedor-grid{
     display: grid;
     grid-template-columns: repeat(4, auto);
     grid-template-rows: auto;
@@ -34,3 +34,108 @@ main{
     grid-row-end: 2;
     
 }
+*/
+.bandera {
+    display: grid;
+    grid-template-columns: 3fr 1fr 2fr 1fr 5fr;
+    grid-template-rows: 3fr 1fr 2fr 1fr 3fr;
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+   
+}
+
+.rojo {
+    display: grid;
+    background-color: red;
+}
+.rojoX {
+    display: grid;
+    background-color: red;
+    grid-row: 5;
+   
+}
+.rojoY {
+    display: grid;
+    background-color: red;
+    grid-row: 5;
+    grid-column: 5;
+   
+}
+.blanco {
+    display: grid;
+    background-color: rgb(247, 244, 244);
+}
+
+/*.azul {
+    display: grid;
+    background-color: blue;
+    grid-column: 3;
+    grid-row-start: 2/6;
+}
+*/
+
+.azulX {
+    display: grid;
+    background-color: blue;
+    grid-column: 1 / 6;
+}
+.azul {
+    display: grid;
+    background-color: blue;
+
+    
+    
+
+    
+   
+}
+
+
+
+
+
+ /*
+  .rojo {
+    display: grid;
+    background-color: red;
+  }
+
+  .azul {
+    display: grid;
+    background-color: blue;
+    grid-column: 3;
+    grid-row: 1/6;
+
+       
+  }
+  
+  .blanco {
+    display: grid;
+    background-color: white;
+   
+  }
+
+  .blancoB {
+    display: grid;
+    background-color: white;
+  }
+
+  .azulB {
+    display: grid;
+    grid-row-start: 3;
+    grid-column: 1/6;
+    background-color: blue;
+  }
+
+  .blancoB {
+    display: grid;
+    background-color: white;
+  }
+
+  .rojoB {
+    display: grid;
+    background-color: red;
+    grid-row: 5;
+  }
+  */
