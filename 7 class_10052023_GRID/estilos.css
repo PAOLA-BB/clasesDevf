@@ -67,13 +67,12 @@ main{
     background-color: rgb(247, 244, 244);
 }
 
-/*.azul {
+.azul {
     display: grid;
     background-color: blue;
     grid-column: 3;
     grid-row-start: 2/6;
 }
-*/
 
 .azulX {
     display: grid;
