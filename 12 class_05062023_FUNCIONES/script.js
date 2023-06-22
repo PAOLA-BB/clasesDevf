@@ -16,7 +16,7 @@ for(let index = 0; index < alumnosMali.length; index++) {
 }
 */
 
-function enviarorreos(destinatarios, mensaje) { // la fuincion trabaja es por la posicion de los ojetos
+function enviarcorreos(destinatarios, mensaje) { // la fuincion trabaja es por la posicion de los ojetos
     for(let index = 0; index < destinatarios.length; index++) {
         console.log(index, senseiDevf[index]);
         console.log(`enviando correo a ${destinatarios[index]}`);
