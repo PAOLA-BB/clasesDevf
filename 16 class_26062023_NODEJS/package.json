@@ -1,0 +1,14 @@
+{
+  "name": "16-class_26062023_nodejs",
+  "version": "1.0.0",
+  "description": "probando node y npm",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paola",
+  "license": "MIT",
+  "dependencies": {
+    "prompt": "^1.3.0"
+  }
+}
