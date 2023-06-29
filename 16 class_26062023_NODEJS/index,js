@@ -1,0 +1,2 @@
+console.log (saludar("mali"));
+// para ocupar algo que esta en otro archivo se llama gestion de modulos

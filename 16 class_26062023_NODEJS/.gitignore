@@ -1,0 +1,3 @@
+mode_modules/
+package-lock.js
+//estos dos archivos no se van asubir al repositoria cuando haga push
