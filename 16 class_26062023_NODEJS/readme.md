@@ -1,6 +1,6 @@
 # no subir NODE_MODULES
 
-para no subir tus NODE_MOdules a tu repositoio, nos vamos a apoyar de una herramioenta gratis dfde git
+para no subir tus NODE_MOdules a tu repositoio, nos vamos a apoyar de una herramienta gratis de git
 
 esta herramienta se llama : GITIGNORE
 
