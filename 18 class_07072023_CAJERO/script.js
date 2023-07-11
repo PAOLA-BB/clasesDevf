@@ -63,6 +63,6 @@ boton_retiro.addEventListener('click', function()){
     dineroCuenta.innerText = resultado
     // actualizar el saldo
     cuentaPersonal.saldo = resultado
-
-
 }
+
+//dd
